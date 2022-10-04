@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html,body{
+    height: 100%;
+}
+
+.parent{
+    width: 50%;
+    height: 400px;
+    background-color: orange;
+}
+.box{
+    width: 50%;
+    margin-top: 50%;
+    padding-top: 25%;
+    background-color: gray;
+    display: inline-block;
+}
