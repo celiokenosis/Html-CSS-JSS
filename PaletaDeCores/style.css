@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  background: black;
+  min-height:100vh;
+  display:flex;
+  flex-flow:column wrap;
+  justify-content:center;
+}
+
+.geral {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.linha {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.cell {
+  width: 10%;
+  padding: 1.8em;
+}
+
+.r1c1 { background: #1ABC9C; }
+.r1c2 { background: #2ECC71; }
+.r1c3 { background: #3498DB; }
+.r1c4 { background: #9B59B6; }
+.r1c5 { background: #34495E; }
+.r2c1 { background: #16A085; }
+.r2c2 { background: #27AE60; }
+.r2c3 { background: #2980B9; }
+.r2c4 { background: #8E44AD; }
+.r2c5 { background: #2C3E50; }
+.r3c1 { background: #F1C40F; }
+.r3c2 { background: #E67E22; }
+.r3c3 { background: #E74C3C; }
+.r3c4 { background: #ECF0F1; color:#95A5A6;}
+.r3c5 { background: #95A5A6; }
+.r4c1 { background: #F39C12; }
+.r4c2 { background: #D35400; }
+.r4c3 { background: #C0392B; }
+.r4c4 { background: #BDC3C7; }
+.r4c5 { background: #7F8C8D; }
+
+footer{
+  padding:1em;
+}
+
+a{
+  text-decoration:none;
+  color: grey;
+}
+
+@media (max-width: 600px) {
+  .cell {flex: auto;}
+}
+
+@media (max-width: 359px){
+  .cell {width: 100%;}
+}

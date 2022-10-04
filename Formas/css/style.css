@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Oswald', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background: red;
+  }
+
+.rectangle {
+	width: 200px;
+	height: 100px;
+	background: red;
+  }
+	
+.circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%
+  }
+
+.oval {
+	width: 200px;
+	height: 100px;
+	background: red;
+	border-radius: 100px / 50px;
+}
